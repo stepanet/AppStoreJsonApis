@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 
 class AppsSearchController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
@@ -56,9 +57,7 @@ class AppsSearchController: UICollectionViewController, UICollectionViewDelegate
         
         let appResult = appResults[indexPath.item]
         
-        cell.nameLabel.text = appResult.trackName
-        cell.categoryLabel.text = appResult.primaryGenreName
-        cell.ratingsLabel.text =  "Rating: \(appResult.averageUserRating ?? 0)"
+        cell.appResult = appResult
         return cell
     }
     
