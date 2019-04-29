@@ -24,6 +24,7 @@ class Service {
             completion([],nil)
             return
         }
+             
         guard let data = data else { return }
         do {
             let searchResult = try JSONDecoder().decode(SearchResult.self, from: data)
