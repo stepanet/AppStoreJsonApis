@@ -14,14 +14,13 @@ class BaseTabBarController: UITabBarController {
         super.viewDidLoad()
         
         
-        tabBar.tintColor = .red //цвет иконок в таббаре
+        //tabBar.tintColor = .red //цвет иконок в таббаре
         tabBar.barTintColor = .white //цвет таб бара
         
         viewControllers = [
             createNavController(viewController: AppsSearchController(), title: "Search", imageName: "search"),
             createNavController(viewController: UIViewController(), title: "Today", imageName: "today"),
             createNavController(viewController: UIViewController(), title: "Apps", imageName: "apps"),
-
         ]
     }
     

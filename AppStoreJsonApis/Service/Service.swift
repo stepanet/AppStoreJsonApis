@@ -12,10 +12,9 @@ class Service {
     
     static let shared = Service()
     
-    func fetchApps(completion: @escaping ([Result], Error?) -> ()) {
-        print("fetching itunes app service")
+    func fetchApps(searchTerm: String, completion: @escaping ([Result], Error?) -> ()) {
         
-        let urlString = "https://itunes.apple.com/search?term=instagram&entity=software"
+        let urlString = "https://itunes.apple.com/search?term=\(searchTerm)&entity=software"
         guard let url = URL(string: urlString) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in
@@ -29,7 +28,7 @@ class Service {
         do {
             let searchResult = try JSONDecoder().decode(SearchResult.self, from: data)
             completion(searchResult.results, nil)
-                        //searchResult.results.forEach({print($0.trackName, $0.primaryGenreName)})
+            //searchResult.results.forEach({print($0.trackName, $0.primaryGenreName)})
             } catch let jsonErr {
                 print("failed to decode from JSON", jsonErr)
                 completion([],jsonErr)
