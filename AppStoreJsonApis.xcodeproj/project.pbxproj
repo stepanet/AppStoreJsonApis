@@ -28,6 +28,7 @@
 		3BF12DA9227A73DB0095F621 /* AppsPageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF12DA8227A73DB0095F621 /* AppsPageHeader.swift */; };
 		3BF12DAB227A75BE0095F621 /* AppsHeaderHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF12DAA227A75BE0095F621 /* AppsHeaderHorizontalController.swift */; };
 		3BF12DAD227A78DC0095F621 /* AppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF12DAC227A78DC0095F621 /* AppsHeaderCell.swift */; };
+		3BF12DB2227BB1480095F621 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF12DB1227BB1480095F621 /* AppGroup.swift */; };
 		6A6B2A1F378FEE9D749DBA4E /* Pods_AppStoreJsonApis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD725CB7C206FA292143EBDF /* Pods_AppStoreJsonApis.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +43,7 @@
 		3BA1E44F227273CD002CEA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA1E45522727493002CEA3A /* BaseTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTapBarController.swift; sourceTree = "<group>"; };
 		3BA1E45822728BE3002CEA3A /* AppsSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSearchController.swift; sourceTree = "<group>"; };
-		3BA1E45B22734336002CEA3A /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchResultCell.swift; path = "New Group/SearchResultCell.swift"; sourceTree = "<group>"; };
+		3BA1E45B22734336002CEA3A /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		3BA1E45E2273BBA1002CEA3A /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		3BA1E4602273C1AF002CEA3A /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 		3BA1E46322751DED002CEA3A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		3BF12DA8227A73DB0095F621 /* AppsPageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPageHeader.swift; sourceTree = "<group>"; };
 		3BF12DAA227A75BE0095F621 /* AppsHeaderHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderHorizontalController.swift; sourceTree = "<group>"; };
 		3BF12DAC227A78DC0095F621 /* AppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderCell.swift; sourceTree = "<group>"; };
+		3BF12DB1227BB1480095F621 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 		BD725CB7C206FA292143EBDF /* Pods_AppStoreJsonApis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStoreJsonApis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF934E189004B83C43631C52 /* Pods-AppStoreJsonApis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreJsonApis.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreJsonApis/Pods-AppStoreJsonApis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				3BF12D9F2277B3A60095F621 /* Apps */,
+				3BF12DB0227A7E0B0095F621 /* Search */,
 				3BA1E4602273C1AF002CEA3A /* VerticalStackView.swift */,
-				3BA1E45B22734336002CEA3A /* SearchResultCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				3BA1E46322751DED002CEA3A /* SearchResult.swift */,
+				3BF12DB1227BB1480095F621 /* AppGroup.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -189,6 +192,14 @@
 				3BF12DAC227A78DC0095F621 /* AppsHeaderCell.swift */,
 			);
 			path = Apps;
+			sourceTree = "<group>";
+		};
+		3BF12DB0227A7E0B0095F621 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1E45B22734336002CEA3A /* SearchResultCell.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		B3F2EA8721ADC62AC3CEE6A9 /* Pods */ = {
@@ -323,6 +334,7 @@
 				3BA1E446227273CC002CEA3A /* ViewController.swift in Sources */,
 				3BA1E444227273CC002CEA3A /* AppDelegate.swift in Sources */,
 				3BA1E46422751DED002CEA3A /* SearchResult.swift in Sources */,
+				3BF12DB2227BB1480095F621 /* AppGroup.swift in Sources */,
 				3BF12D9B2277AFCB0095F621 /* AppsPageController.swift in Sources */,
 				3BF12DAD227A78DC0095F621 /* AppsHeaderCell.swift in Sources */,
 				3BA1E45622727493002CEA3A /* BaseTapBarController.swift in Sources */,
