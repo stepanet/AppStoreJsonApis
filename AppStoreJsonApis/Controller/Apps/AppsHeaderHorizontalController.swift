@@ -12,6 +12,8 @@ class AppsHeaderHorizontalController: BaseListController, UICollectionViewDelega
     
     let cellId = "cellId"
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
