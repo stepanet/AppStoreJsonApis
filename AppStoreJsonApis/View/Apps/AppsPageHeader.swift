@@ -10,14 +10,14 @@ import UIKit
 
 class AppsPageHeader: UICollectionReusableView {
     
-    let appHorizontalController = AppsHeaderHorizontalController()
+    let appHeaderHorizontalController = AppsHeaderHorizontalController()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        appHorizontalController.view.backgroundColor = .purple
-        addSubview(appHorizontalController.view)
-        appHorizontalController.view.fillSuperview()
+        appHeaderHorizontalController.view.backgroundColor = .purple
+        addSubview(appHeaderHorizontalController.view)
+        appHeaderHorizontalController.view.fillSuperview()
     }
     
     required init?(coder aDecoder: NSCoder) {
