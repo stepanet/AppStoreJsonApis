@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B54A91D2280FDF1005F72B1 /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A91C2280FDF1005F72B1 /* AppDetailController.swift */; };
 		3BA1E444227273CC002CEA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E443227273CC002CEA3A /* AppDelegate.swift */; };
 		3BA1E446227273CC002CEA3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E445227273CC002CEA3A /* ViewController.swift */; };
 		3BA1E449227273CC002CEA3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1E447227273CC002CEA3A /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1125C7F37DA85B766009720A /* Pods-AppStoreJsonApis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreJsonApis.release.xcconfig"; path = "Target Support Files/Pods-AppStoreJsonApis/Pods-AppStoreJsonApis.release.xcconfig"; sourceTree = "<group>"; };
+		3B54A91C2280FDF1005F72B1 /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
 		3BA1E440227273CC002CEA3A /* AppStoreJsonApis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreJsonApis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA1E443227273CC002CEA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA1E445227273CC002CEA3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -174,9 +176,18 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		3BB2BEB22280FD94001E0EF1 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A91C2280FDF1005F72B1 /* AppDetailController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		3BF12D992277AF780095F621 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				3BB2BEB22280FD94001E0EF1 /* Details */,
 				3BF12D9A2277AFCA0095F621 /* AppsPageController.swift */,
 				3BF12DA22277B9970095F621 /* AppsHorizontalController.swift */,
 				3BF12DAA227A75BE0095F621 /* AppsHeaderHorizontalController.swift */,
@@ -358,6 +369,7 @@
 				3BF12DA7227910A20095F621 /* Extensions.swift in Sources */,
 				3BA1E45F2273BBA1002CEA3A /* UIView+Layout.swift in Sources */,
 				3BA1E45C22734336002CEA3A /* SearchResultCell.swift in Sources */,
+				3B54A91D2280FDF1005F72B1 /* AppDetailController.swift in Sources */,
 				3BB2BEAF227F9E5B001E0EF1 /* HorizontalSnappingController.swift in Sources */,
 				3BF12DA32277B9970095F621 /* AppsHorizontalController.swift in Sources */,
 				3BA1E4612273C1AF002CEA3A /* VerticalStackView.swift in Sources */,
