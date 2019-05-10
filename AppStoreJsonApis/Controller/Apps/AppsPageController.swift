@@ -28,7 +28,7 @@ class AppsPageController: BaseListController, UICollectionViewDelegateFlowLayout
         collectionView.register(AppsGroupCell.self, forCellWithReuseIdentifier: "id")
     
         collectionView.register(AppsPageHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
-        
+        collectionView.showsVerticalScrollIndicator = false
         view.addSubview(activityIndicatorView)
         activityIndicatorView.fillSuperview()
         activityIndicatorView.startAnimating()

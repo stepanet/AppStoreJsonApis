@@ -32,7 +32,7 @@ class AppDetailCell: UICollectionViewCell {
         
         backgroundColor = .white
         
-        appIconImageView.backgroundColor = .red
+        //appIconImageView.backgroundColor = .red
         appIconImageView.constrainWidth(constant: 140)
         appIconImageView.constrainHeight(constant: 140)
         

@@ -20,7 +20,7 @@ class AppsHeaderCell: UICollectionViewCell {
         super.init(frame: frame)
         
         //backgroundColor = .green
-        imageView.backgroundColor = .red
+        //imageView.backgroundColor = .red
         titleLabel.numberOfLines = 2
         company.textColor = .blue
         
