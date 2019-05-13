@@ -14,6 +14,7 @@
 		3B54A92622864E6A005F72B1 /* ReviewRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A92522864E6A005F72B1 /* ReviewRowCell.swift */; };
 		3B54A928228651ED005F72B1 /* ReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A927228651ED005F72B1 /* ReviewsController.swift */; };
 		3B54A92A228654A0005F72B1 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A929228654A0005F72B1 /* ReviewCell.swift */; };
+		3B54A92C2288E082005F72B1 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A92B2288E082005F72B1 /* Reviews.swift */; };
 		3BA1E444227273CC002CEA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E443227273CC002CEA3A /* AppDelegate.swift */; };
 		3BA1E446227273CC002CEA3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E445227273CC002CEA3A /* ViewController.swift */; };
 		3BA1E449227273CC002CEA3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1E447227273CC002CEA3A /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		3B54A92522864E6A005F72B1 /* ReviewRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRowCell.swift; sourceTree = "<group>"; };
 		3B54A927228651ED005F72B1 /* ReviewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsController.swift; sourceTree = "<group>"; };
 		3B54A929228654A0005F72B1 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		3B54A92B2288E082005F72B1 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		3BA1E440227273CC002CEA3A /* AppStoreJsonApis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreJsonApis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA1E443227273CC002CEA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA1E445227273CC002CEA3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				3BA1E46322751DED002CEA3A /* SearchResult.swift */,
 				3BF12DB1227BB1480095F621 /* AppGroup.swift */,
 				3BB2BC8A227D021A001E0EF1 /* SocialApp.swift */,
+				3B54A92B2288E082005F72B1 /* Reviews.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				3BA1E467227522CC002CEA3A /* Service.swift in Sources */,
 				3B54A9222284F451005F72B1 /* PreviewCell.swift in Sources */,
 				3B54A928228651ED005F72B1 /* ReviewsController.swift in Sources */,
+				3B54A92C2288E082005F72B1 /* Reviews.swift in Sources */,
 				3BF12DA7227910A20095F621 /* Extensions.swift in Sources */,
 				3BA1E45F2273BBA1002CEA3A /* UIView+Layout.swift in Sources */,
 				3BA1E45C22734336002CEA3A /* SearchResultCell.swift in Sources */,
