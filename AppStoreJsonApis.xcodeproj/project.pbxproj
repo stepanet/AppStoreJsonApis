@@ -17,6 +17,8 @@
 		3B54A92C2288E082005F72B1 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A92B2288E082005F72B1 /* Reviews.swift */; };
 		3B54A92F228B9829005F72B1 /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A92E228B9829005F72B1 /* TodayController.swift */; };
 		3B54A932228B99FC005F72B1 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A931228B99FC005F72B1 /* TodayCell.swift */; };
+		3B54A934228BAB19005F72B1 /* AppFullscreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A933228BAB19005F72B1 /* AppFullscreenController.swift */; };
+		3B54A936228BAF65005F72B1 /* AppFullscreenDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A935228BAF65005F72B1 /* AppFullscreenDescriptionCell.swift */; };
 		3BA1E444227273CC002CEA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E443227273CC002CEA3A /* AppDelegate.swift */; };
 		3BA1E446227273CC002CEA3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1E445227273CC002CEA3A /* ViewController.swift */; };
 		3BA1E449227273CC002CEA3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1E447227273CC002CEA3A /* Main.storyboard */; };
@@ -57,6 +59,8 @@
 		3B54A92B2288E082005F72B1 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		3B54A92E228B9829005F72B1 /* TodayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
 		3B54A931228B99FC005F72B1 /* TodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
+		3B54A933228BAB19005F72B1 /* AppFullscreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFullscreenController.swift; sourceTree = "<group>"; };
+		3B54A935228BAF65005F72B1 /* AppFullscreenDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFullscreenDescriptionCell.swift; sourceTree = "<group>"; };
 		3BA1E440227273CC002CEA3A /* AppStoreJsonApis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreJsonApis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA1E443227273CC002CEA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA1E445227273CC002CEA3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				3B54A92E228B9829005F72B1 /* TodayController.swift */,
+				3B54A933228BAB19005F72B1 /* AppFullscreenController.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				3B54A931228B99FC005F72B1 /* TodayCell.swift */,
+				3B54A935228BAF65005F72B1 /* AppFullscreenDescriptionCell.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 				3BB2BEB1227FA3BF001E0EF1 /* BetterSnappingLayout.swift in Sources */,
 				3BA1E444227273CC002CEA3A /* AppDelegate.swift in Sources */,
 				3B54A92A228654A0005F72B1 /* ReviewCell.swift in Sources */,
+				3B54A934228BAB19005F72B1 /* AppFullscreenController.swift in Sources */,
 				3BB2BC8B227D021A001E0EF1 /* SocialApp.swift in Sources */,
 				3BA1E46422751DED002CEA3A /* SearchResult.swift in Sources */,
 				3BF12DB2227BB1480095F621 /* AppGroup.swift in Sources */,
@@ -420,6 +427,7 @@
 				3B54A9242284F728005F72B1 /* PreviewScreenshotsController.swift in Sources */,
 				3BA1E45922728BE3002CEA3A /* AppsSearchController.swift in Sources */,
 				3BF12DA12277B3C50095F621 /* AppsGroupCell.swift in Sources */,
+				3B54A936228BAF65005F72B1 /* AppFullscreenDescriptionCell.swift in Sources */,
 				3BF12DA9227A73DB0095F621 /* AppsPageHeader.swift in Sources */,
 				3BA1E467227522CC002CEA3A /* Service.swift in Sources */,
 				3B54A9222284F451005F72B1 /* PreviewCell.swift in Sources */,
