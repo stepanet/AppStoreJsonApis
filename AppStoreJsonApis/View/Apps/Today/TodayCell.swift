@@ -18,7 +18,7 @@ class TodayCell: UICollectionViewCell {
         
         backgroundColor = .white
         layer.cornerRadius = 16
-        //clipsToBounds = true
+        
         
         addSubview(imageView)
         imageView.contentMode = .scaleAspectFill
